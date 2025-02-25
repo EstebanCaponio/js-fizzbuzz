@@ -3,7 +3,7 @@ console.log("Esercizio FizzBuzz");
 for (let i = 1; i <= 100; i++) {
     // creare due variabili per non ripetere i%3==0 e i%5==0
     let rem3 = i % 3 === 0;
-    let rem5 = i % 5 ===s 0;
+    let rem5 = i % 5 === 0;
 
     // SE "i" è divisibile per 3 AND 5
     if (rem3 && rem5) {
