@@ -12,5 +12,11 @@ for (let i = 1; i <= 100; i++) {
         let i = "Fizz";
         console.log(i);
         // altrimenti SE è divisibile per 5
-    } 
+    } else if (i % 5 == 0) {
+        // stampa Buzz
+        let i = "Buzz";
+        console.log(i);
+    } else
+    // se non rispetta nessuna condizione stampa "i"
+    console.log(i);
 }
