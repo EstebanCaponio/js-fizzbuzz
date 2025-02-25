@@ -8,6 +8,7 @@
 
 ### Pseudocodice
 - creare un ciclo for che si ripete finchè il valore di "i" non supera 100
+- creare due variabili per non ripetere i%3==0 e i%5==0
   - SE "i" è divisibile per 3 AND 5
      - stampa FizzBuzz
   - altrimenti SE è divisibile per 3
